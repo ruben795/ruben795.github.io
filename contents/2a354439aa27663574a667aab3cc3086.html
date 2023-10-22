@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Arquitectura</title>
+    <title>Gestión de usuarios</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Arquitectura</h1>
+      <h1>Gestión de usuarios</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLModel"></span>
-          UMLModel
+          <span class="node-icon staruml-icon icon-UMLComponent"></span>
+          UMLComponent
         </span>
         
       </section>
@@ -42,6 +42,12 @@
         
           <span>::</span>
           <span class="label label-info"><a href='b2586164651f6f9a701aebd654a798a0.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='2a354439aa27663574a667aab3cc3086.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de usuarios</a></span>
         
       </section>
 
@@ -77,12 +83,47 @@
       <!-- Classifier -->
 
       
+        
+        
+
+
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Interfaces</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='6850f07b4eaddb5b0fe49084f9012540.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónAcceso</a></li>
+        
+        <li><a href='53d51df3d94873c9a8dae29f4a40b008.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónUsuarios</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Interface -->
 
       
 
       <!-- Component -->
+
+      
+        
+        
 
       
 
@@ -210,7 +251,7 @@
     
     <tr>
         <td>name</td>
-        <td>Arquitectura</td>
+        <td>Gestión de usuarios</td>
     </tr>
     
     
@@ -243,11 +284,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -255,8 +302,26 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isIndirectlyInstantiated</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -278,10 +343,32 @@
 
         
         
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='6850f07b4eaddb5b0fe49084f9012540.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónAcceso</a></li>
+        
+        <li><a href='53d51df3d94873c9a8dae29f4a40b008.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónUsuarios</a></li>
+        
+        <li><a href='402cf2c18eb43c100c3442186adb52dc.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOUsuario</a></li>
+        
+    </ul>
+</section>
+
 
 
         
         
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='402cf2c18eb43c100c3442186adb52dc.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOUsuario</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -289,6 +376,21 @@
 
       
       
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='617954a973afa21de160afdb1c87c0ba.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de usuarios→IGestiónAcceso)</a></li>
+        
+        <li><a href='955380db339659dc3d48b0d4b4b686ed.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de usuarios→IGestiónUsuarios)</a></li>
+        
+        <li><a href='9a5f2fc671d2472aa4d8402e7b7bc1ec.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de usuarios→DAOUsuario)</a></li>
+        
+        <li><a href='41019ee09c8fce74427d404e6e5c8647.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(DAOUsuario→Gestión de usuarios)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Owned Elements -->
@@ -299,7 +401,11 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></li>
+        <li><a href='617954a973afa21de160afdb1c87c0ba.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de usuarios→IGestiónAcceso)</a></li>
+        
+        <li><a href='955380db339659dc3d48b0d4b4b686ed.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de usuarios→IGestiónUsuarios)</a></li>
+        
+        <li><a href='9a5f2fc671d2472aa4d8402e7b7bc1ec.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de usuarios→DAOUsuario)</a></li>
         
     </ul>
 </section>

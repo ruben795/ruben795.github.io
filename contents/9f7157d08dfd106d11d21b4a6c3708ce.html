@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Arquitectura</title>
+    <title>IGestiónEventos</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Arquitectura</h1>
+      <h1>IGestiónEventos</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLModel"></span>
-          UMLModel
+          <span class="node-icon staruml-icon icon-UMLInterface"></span>
+          UMLInterface
         </span>
         
       </section>
@@ -42,6 +42,12 @@
         
           <span>::</span>
           <span class="label label-info"><a href='b2586164651f6f9a701aebd654a798a0.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='9f7157d08dfd106d11d21b4a6c3708ce.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónEventos</a></span>
         
       </section>
 
@@ -77,8 +83,41 @@
       <!-- Classifier -->
 
       
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Interface -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Implementing Classifiers</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='68caf4ad74340bc5913b7efb0a7f4eb2.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de eventos</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -210,7 +249,7 @@
     
     <tr>
         <td>name</td>
-        <td>Arquitectura</td>
+        <td>IGestiónEventos</td>
     </tr>
     
     
@@ -243,11 +282,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -255,8 +300,17 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -282,6 +336,19 @@
 
         
         
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='0d688d93e37b99542993ef26d69292de.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista de usuario</a></li>
+        
+        <li><a href='4a8038017bfd6888d993150f2f8b21f1.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista de admin</a></li>
+        
+        <li><a href='68caf4ad74340bc5913b7efb0a7f4eb2.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de eventos</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -289,21 +356,25 @@
 
       
       
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='78bdfe4e2c8ea8cf341d2f27f6cd82d2.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de usuario→IGestiónEventos)</a></li>
+        
+        <li><a href='c8138446909dac44afa32c59476daee6.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de admin→IGestiónEventos)</a></li>
+        
+        <li><a href='588e64b9064047b19893d977ff29fd19.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de eventos→IGestiónEventos)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->

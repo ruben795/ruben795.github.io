@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Arquitectura</title>
+    <title>Gestión de solicitudes de tablas</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Arquitectura</h1>
+      <h1>Gestión de solicitudes de tablas</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLModel"></span>
-          UMLModel
+          <span class="node-icon staruml-icon icon-UMLComponent"></span>
+          UMLComponent
         </span>
         
       </section>
@@ -42,6 +42,12 @@
         
           <span>::</span>
           <span class="label label-info"><a href='b2586164651f6f9a701aebd654a798a0.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='d35e3c95162893181d8e007242ebb599.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de solicitudes de tablas</a></span>
         
       </section>
 
@@ -77,12 +83,45 @@
       <!-- Classifier -->
 
       
+        
+        
+
+
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Interfaces</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e4818ea7c745034cb9ddeaa56f04cf3b.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónSolicitudesTablas</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Interface -->
 
       
 
       <!-- Component -->
+
+      
+        
+        
 
       
 
@@ -210,7 +249,7 @@
     
     <tr>
         <td>name</td>
-        <td>Arquitectura</td>
+        <td>Gestión de solicitudes de tablas</td>
     </tr>
     
     
@@ -243,11 +282,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -255,8 +300,26 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isIndirectlyInstantiated</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -278,6 +341,19 @@
 
         
         
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e4818ea7c745034cb9ddeaa56f04cf3b.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónSolicitudesTablas</a></li>
+        
+        <li><a href='8e4ec7c99ee1e5b0178489bb1fba2104.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOSolicitudTabla</a></li>
+        
+        <li><a href='402cf2c18eb43c100c3442186adb52dc.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOUsuario</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -289,6 +365,19 @@
 
       
       
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='97e6cc32ddbd46fea45c4a292903aabf.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de solicitudes de tablas→IGestiónSolicitudesTablas)</a></li>
+        
+        <li><a href='1bcbe8eb16eb351513ef3e6be23c9433.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de solicitudes de tablas→DAOSolicitudTabla)</a></li>
+        
+        <li><a href='14e73fc1244c56eab58953d36926f345.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de solicitudes de tablas→DAOUsuario)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Owned Elements -->
@@ -299,7 +388,11 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></li>
+        <li><a href='97e6cc32ddbd46fea45c4a292903aabf.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de solicitudes de tablas→IGestiónSolicitudesTablas)</a></li>
+        
+        <li><a href='1bcbe8eb16eb351513ef3e6be23c9433.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de solicitudes de tablas→DAOSolicitudTabla)</a></li>
+        
+        <li><a href='14e73fc1244c56eab58953d36926f345.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de solicitudes de tablas→DAOUsuario)</a></li>
         
     </ul>
 </section>
