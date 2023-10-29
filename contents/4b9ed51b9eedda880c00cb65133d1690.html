@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>IGestiónSubastas</title>
+    <title>IGestionSubastas</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>IGestiónSubastas</h1>
+      <h1>IGestionSubastas</h1>
 
       <!-- Type and Stereotype -->
 
@@ -47,7 +47,7 @@
           <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4b9ed51b9eedda880c00cb65133d1690.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestiónSubastas</a></span>
+          <span class="label label-info"><a href='4b9ed51b9eedda880c00cb65133d1690.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestionSubastas</a></span>
         
       </section>
 
@@ -152,6 +152,48 @@
       <!-- Operations -->
 
       
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="6ab29bfdb1ee0e4bebefeefd222fcfa9.html">iniciarSubasta(idSubasta: int, duracion: double, precioInicial: double): boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="34a201c29de31b9fd1a5a48a18688829.html">finalizarSubasta(idSubasta: int): boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="54e4bdaf3e9b6fe9e6ff642c0560b08a.html">verSubasta(idSubasta: int): Subasta</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="0c17772c4c1ba350837f3ea2fba73847.html">bloquearSubasta(idSubasta: int): boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="dc525a6ab8aecebd1016d9668199f6d4.html">desbloquearSubasta(idSubasta: int): boolean</a></td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
 
       <!-- Receptions -->
 
@@ -249,7 +291,7 @@
     
     <tr>
         <td>name</td>
-        <td>IGestiónSubastas</td>
+        <td>IGestionSubastas</td>
     </tr>
     
     
@@ -360,11 +402,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='fd08f13ac2cfaef5904adedc70e2c8f1.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de usuario→IGestiónSubastas)</a></li>
+        <li><a href='fd08f13ac2cfaef5904adedc70e2c8f1.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de usuario→IGestionSubastas)</a></li>
         
-        <li><a href='e66efc5f1a73f0d51d44512d6432590c.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de admin→IGestiónSubastas)</a></li>
+        <li><a href='e66efc5f1a73f0d51d44512d6432590c.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista de admin→IGestionSubastas)</a></li>
         
-        <li><a href='68bb611629de384b0a6b7da36e4e9f5f.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de subastas→IGestiónSubastas)</a></li>
+        <li><a href='68bb611629de384b0a6b7da36e4e9f5f.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestión de subastas→IGestionSubastas)</a></li>
         
     </ul>
 </section>
