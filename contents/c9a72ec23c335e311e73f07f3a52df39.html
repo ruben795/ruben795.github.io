@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Datos de clases</title>
+    <title>Servidor</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Datos de clases</h1>
+      <h1>Servidor</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLComponent"></span>
-          UMLComponent
+          <span class="node-icon staruml-icon icon-UMLNode"></span>
+          UMLNode
         </span>
         
       </section>
@@ -44,10 +44,10 @@
           <span class="label label-info"><a href='b2586164651f6f9a701aebd654a798a0.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
+          <span class="label label-info"><a href='f99a7615fb0a2e4a185cce4a7cc02bc2.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Despliegue</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4350b0dc0c6258ef334a2a4a8152f490.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de clases</a></span>
+          <span class="label label-info"><a href='c9a72ec23c335e311e73f07f3a52df39.html'><span class='node-icon staruml-icon icon-UMLNode'></span>Servidor</a></span>
         
       </section>
 
@@ -93,15 +93,6 @@
 
         
         
-<section class="element-list">
-    <h3>Interfaces</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='8ffcdc1dd4fb1d8d24f3c7027a494107.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOClase</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -120,12 +111,25 @@
       <!-- Component -->
 
       
-        
-        
-
-      
 
       <!-- Node -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Deployed Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='95f16784aa416d1cee2fbd3bd9042e98.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>Vistas.war</a></li>
+        
+        <li><a href='c9e7e147e928905f714a17e7dcdf134e.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>negocio.jar</a></li>
+        
+        <li><a href='c71e0657ad7218f4b96bf09c935b3214.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>bd.sql</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -249,7 +253,7 @@
     
     <tr>
         <td>name</td>
-        <td>Datos de clases</td>
+        <td>Servidor</td>
     </tr>
     
     
@@ -315,15 +319,6 @@
     
     
     
-    
-    
-    <tr>
-        <td>isIndirectlyInstantiated</td>
-        <td><span class='label label-info'>true</span></td>
-    </tr>
-    
-    
-    
 </table>                
 
       </section>
@@ -341,15 +336,6 @@
 
         
         
-<section class="element-list">
-    <h3>Dependencies</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='8ffcdc1dd4fb1d8d24f3c7027a494107.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOClase</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -357,6 +343,10 @@
 <section class="element-list">
     <h3>Dependants</h3>
     <ul class="nav nav-list">
+        
+        <li><a href='95f16784aa416d1cee2fbd3bd9042e98.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>Vistas.war</a></li>
+        
+        <li><a href='c9e7e147e928905f714a17e7dcdf134e.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>negocio.jar</a></li>
         
         <li><a href='c71e0657ad7218f4b96bf09c935b3214.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>bd.sql</a></li>
         
@@ -374,9 +364,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='ce197a6714b00d640cff7402c90dade4.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de clases→DAOClase)</a></li>
+        <li><a href='222a24b94ad220d28d2d3365fe879255.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Cliente—Servidor)</a></li>
         
-        <li><a href='f32739767a8b37177da74da40eb9cfea.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de clases)</a></li>
+        <li><a href='ad00588181683137ab7b04353d525ef9.html'><span class='node-icon staruml-icon icon-UMLDeployment'></span>(Vistas.war→Servidor)</a></li>
+        
+        <li><a href='6ea9ae9d64c2ec8a2e40af1210f1b31e.html'><span class='node-icon staruml-icon icon-UMLDeployment'></span>(negocio.jar→Servidor)</a></li>
+        
+        <li><a href='9c513d9180aa8795db297b611b9b8346.html'><span class='node-icon staruml-icon icon-UMLDeployment'></span>(bd.sql→Servidor)</a></li>
+        
+        <li><a href='ab27eea0aba37c9e15d8f83070bd3955.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Servidor datos cifrados—Servidor)</a></li>
         
     </ul>
 </section>
@@ -387,15 +383,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='ce197a6714b00d640cff7402c90dade4.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de clases→DAOClase)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->

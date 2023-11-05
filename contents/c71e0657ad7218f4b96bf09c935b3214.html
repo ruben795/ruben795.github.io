@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Datos de clases</title>
+    <title>bd.sql</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Datos de clases</h1>
+      <h1>bd.sql</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLComponent"></span>
-          UMLComponent
+          <span class="node-icon staruml-icon icon-UMLArtifact"></span>
+          UMLArtifact
         </span>
         
       </section>
@@ -44,10 +44,10 @@
           <span class="label label-info"><a href='b2586164651f6f9a701aebd654a798a0.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
+          <span class="label label-info"><a href='f99a7615fb0a2e4a185cce4a7cc02bc2.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Despliegue</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4350b0dc0c6258ef334a2a4a8152f490.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de clases</a></span>
+          <span class="label label-info"><a href='c71e0657ad7218f4b96bf09c935b3214.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>bd.sql</a></span>
         
       </section>
 
@@ -93,23 +93,23 @@
 
         
         
+
+
+        
+        
+
+
+        
+        
 <section class="element-list">
-    <h3>Interfaces</h3>
+    <h3>Deployment Targets</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8ffcdc1dd4fb1d8d24f3c7027a494107.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOClase</a></li>
+        <li><a href='c9a72ec23c335e311e73f07f3a52df39.html'><span class='node-icon staruml-icon icon-UMLNode'></span>Servidor</a></li>
         
     </ul>
 </section>
 
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -118,10 +118,6 @@
       
 
       <!-- Component -->
-
-      
-        
-        
 
       
 
@@ -249,7 +245,7 @@
     
     <tr>
         <td>name</td>
-        <td>Datos de clases</td>
+        <td>bd.sql</td>
     </tr>
     
     
@@ -318,8 +314,8 @@
     
     
     <tr>
-        <td>isIndirectlyInstantiated</td>
-        <td><span class='label label-info'>true</span></td>
+        <td>fileName</td>
+        <td></td>
     </tr>
     
     
@@ -345,7 +341,17 @@
     <h3>Dependencies</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8ffcdc1dd4fb1d8d24f3c7027a494107.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOClase</a></li>
+        <li><a href='c9a72ec23c335e311e73f07f3a52df39.html'><span class='node-icon staruml-icon icon-UMLNode'></span>Servidor</a></li>
+        
+        <li><a href='56dcd94155a6ad5864647fe29a3a50d4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de usuarios</a></li>
+        
+        <li><a href='dcdde4d5c81470bd3a1f6863df2bf30a.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de subastas</a></li>
+        
+        <li><a href='6a8ac150891746d783b2ad453752a69d.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de eventos</a></li>
+        
+        <li><a href='4350b0dc0c6258ef334a2a4a8152f490.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de clases</a></li>
+        
+        <li><a href='cd2a2492f79bde122f6b12a3ea7ea9ad.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de solicitudes de tablas</a></li>
         
     </ul>
 </section>
@@ -354,15 +360,6 @@
 
         
         
-<section class="element-list">
-    <h3>Dependants</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='c71e0657ad7218f4b96bf09c935b3214.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>bd.sql</a></li>
-        
-    </ul>
-</section>
-
 
       
 
@@ -374,9 +371,17 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='ce197a6714b00d640cff7402c90dade4.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de clases→DAOClase)</a></li>
+        <li><a href='9c513d9180aa8795db297b611b9b8346.html'><span class='node-icon staruml-icon icon-UMLDeployment'></span>(bd.sql→Servidor)</a></li>
+        
+        <li><a href='0820c044f02ebf9fcf5ef8426fbfede2.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de usuarios)</a></li>
+        
+        <li><a href='98afc9dc19ce9f4b8fcba2d8aa7182df.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de subastas)</a></li>
+        
+        <li><a href='0e996ba54be8f8ef8a0a0149484df997.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de eventos)</a></li>
         
         <li><a href='f32739767a8b37177da74da40eb9cfea.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de clases)</a></li>
+        
+        <li><a href='682b2bd4451087bd06ea62a393f91d88.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de solicitudes de tablas)</a></li>
         
     </ul>
 </section>
@@ -391,7 +396,17 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='ce197a6714b00d640cff7402c90dade4.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de clases→DAOClase)</a></li>
+        <li><a href='9c513d9180aa8795db297b611b9b8346.html'><span class='node-icon staruml-icon icon-UMLDeployment'></span>(bd.sql→Servidor)</a></li>
+        
+        <li><a href='0820c044f02ebf9fcf5ef8426fbfede2.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de usuarios)</a></li>
+        
+        <li><a href='98afc9dc19ce9f4b8fcba2d8aa7182df.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de subastas)</a></li>
+        
+        <li><a href='0e996ba54be8f8ef8a0a0149484df997.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de eventos)</a></li>
+        
+        <li><a href='f32739767a8b37177da74da40eb9cfea.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de clases)</a></li>
+        
+        <li><a href='682b2bd4451087bd06ea62a393f91d88.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(bd.sql→Datos de solicitudes de tablas)</a></li>
         
     </ul>
 </section>
