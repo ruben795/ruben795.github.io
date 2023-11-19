@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>DAOEvento</title>
+    <title>DAOUsuario</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>DAOEvento</h1>
+      <h1>DAOUsuario</h1>
 
       <!-- Type and Stereotype -->
 
@@ -47,7 +47,7 @@
           <span class="label label-info"><a href='42bbfa4ed439c1bbcf6b3d1d00232d0a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d472efdf8fc0fc1f8c439cef4a973daf.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOEvento</a></span>
+          <span class="label label-info"><a href='d472efdf8fc0fc1f8c439cef4a973daf.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOUsuario</a></span>
         
       </section>
 
@@ -109,6 +109,15 @@
       
         
         
+<section class="element-list">
+    <h3>Implementing Classifiers</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='56dcd94155a6ad5864647fe29a3a50d4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de usuarios</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -154,31 +163,31 @@
           
           <tr>
             <td>public</td>
-            <td><a href="848c32ec34f783455b748f4b2bb249cc.html">obtenerEventos(): Evento[*]</a></td>
+            <td><a href="848c32ec34f783455b748f4b2bb249cc.html">obtenerUsuarios(): Usuarios[*]</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="c3dbeae572e1038ae20280958060a023.html">obtenerEvento(idEvento: int): Evento</a></td>
+            <td><a href="c3dbeae572e1038ae20280958060a023.html">obtenerUsuario(idCliente: int): Usuario</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="aaf6fb49d08a1a490982fdfc9e6c62c7.html">crearEvento(e: Evento): Evento</a></td>
+            <td><a href="aaf6fb49d08a1a490982fdfc9e6c62c7.html">crearUsuario(u: Usuario): Usuario</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="35113d50b4652bad92a56f4a49fe966b.html">modificarEvento(e: Evento): boolean</a></td>
+            <td><a href="35113d50b4652bad92a56f4a49fe966b.html">modificarUsuario(u: Usuario): boolean</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="a4bee66a56e1bd1ca51b9264e7266238.html">eliminarEvento(idEvento: int): boolean</a></td>
+            <td><a href="a4bee66a56e1bd1ca51b9264e7266238.html">eliminarUsuario(idCliente: int): boolean</a></td>
             <td></td>
           </tr>
           
@@ -282,7 +291,7 @@
     
     <tr>
         <td>name</td>
-        <td>DAOEvento</td>
+        <td>DAOUsuario</td>
     </tr>
     
     
@@ -369,6 +378,25 @@
 
         
         
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='2a354439aa27663574a667aab3cc3086.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de usuarios</a></li>
+        
+        <li><a href='77cf27e98d89abca19eee0e26261c1c1.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de subastas</a></li>
+        
+        <li><a href='fdcd9e1009ddbb1c77718d40b96d1b87.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de clases</a></li>
+        
+        <li><a href='d35e3c95162893181d8e007242ebb599.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de solicitudes de tablas</a></li>
+        
+        <li><a href='68caf4ad74340bc5913b7efb0a7f4eb2.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestión de eventos</a></li>
+        
+        <li><a href='56dcd94155a6ad5864647fe29a3a50d4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de usuarios</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -376,6 +404,25 @@
 
       
       
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='9a5f2fc671d2472aa4d8402e7b7bc1ec.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de usuarios→DAOUsuario)</a></li>
+        
+        <li><a href='3437ccd12fa8eadb675c324613baec5c.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de subastas→DAOUsuario)</a></li>
+        
+        <li><a href='e44601db1fa9b7e61d287963ea884022.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de clases→DAOUsuario)</a></li>
+        
+        <li><a href='14e73fc1244c56eab58953d36926f345.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de solicitudes de tablas→DAOUsuario)</a></li>
+        
+        <li><a href='4932703d2db765610392344d8c702a2d.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestión de eventos→DAOUsuario)</a></li>
+        
+        <li><a href='9ad6cba6ed111995a19931f54858793d.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de usuarios→DAOUsuario)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Owned Elements -->
