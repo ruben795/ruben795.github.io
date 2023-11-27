@@ -216,14 +216,14 @@
           <tr>
             <td>public</td>
             <td><a href="7adc53a8474dd3b3842fc10d8cc63406.html">eventosPagados</a></td>
-            <td>Eventos [*]</td>
+            <td><a href='1312242115bf757c47ccbd787590fc2e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Evento</a> [*]</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="a2a11a579d3c9245164391124ead8af2.html">eventosPasados</a></td>
-            <td>Eventos [*]</td>
+            <td><a href='1312242115bf757c47ccbd787590fc2e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Evento</a> [*]</td>
             <td></td>
           </tr>
           
@@ -264,7 +264,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="de76df26cc2dc75b27eda8b2f73ff897.html">crearPedido(Cliente cliente): PedidoTabla</a></td>
+            <td><a href="de76df26cc2dc75b27eda8b2f73ff897.html">crearPedido(cliente: Cliente): PedidoTabla</a></td>
             <td></td>
           </tr>
           
@@ -312,43 +312,43 @@
           
           <tr>
             <td>public</td>
-            <td><a href="39276dac351b363a405a40ee44bad6ad.html">comprarEntrada(idCliente: int, idEvento: int): boolean</a></td>
+            <td><a href="39276dac351b363a405a40ee44bad6ad.html">comprarEntrada(evento: Evento): boolean</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="123a3b9347f577ee22d1284995b6496b.html">devolverEntrada(idCliente: int, idEvento: int): boolean</a></td>
+            <td><a href="123a3b9347f577ee22d1284995b6496b.html">devolverEntrada(evento: Evento): boolean</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="8ea1793e452e49bd0846c97e1cd02d74.html">verEventosPagados(idCliente: int): Evento[*]</a></td>
+            <td><a href="8ea1793e452e49bd0846c97e1cd02d74.html">verEventosPagados(): Evento[*]</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="bb8ceaf2847ecc33942b9747347b87b9.html">verEventosPasados(idCliente: int): Evento[*]</a></td>
+            <td><a href="bb8ceaf2847ecc33942b9747347b87b9.html">verEventosPasados(): Evento[*]</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="b2268cb076873569764cec215e56e506.html">verInfoEntrada(idEntrada: int, idEvento: int): boolean</a></td>
+            <td><a href="b2268cb076873569764cec215e56e506.html">verInfoEntrada(entrada: Entrada, evento: Evento): boolean</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="cb2fe6e67c20abf7b4d527033ae52a77.html">verEntradasDeUnEvento(idEntrada: int, idEvento: int): Entrada[*]</a></td>
+            <td><a href="cb2fe6e67c20abf7b4d527033ae52a77.html">verEntradasDeUnEvento(evento: Evento): Entrada[*]</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="2792ed8e514d10f3ce7963a62a6fb5b0.html">codigoEntrada(idEntrada: int, idEvento: int): String</a></td>
+            <td><a href="2792ed8e514d10f3ce7963a62a6fb5b0.html">codigoEntrada(entrada: Entrada, evento: Evento): String</a></td>
             <td></td>
           </tr>
           
@@ -590,15 +590,15 @@
         
         <li><a href='90477821ca875f6022b431b9f51b764f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Servicio—Cliente)</a></li>
         
-        <li><a href='9ccd9b4cb9c3bec5d448895d2c2bb6e8.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Empresa→Cliente)</a></li>
-        
-        <li><a href='c53f5d5938de7c2b825ac4ebd37aaa86.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Particular→Cliente)</a></li>
-        
         <li><a href='7df1da1f22f4c28e42894124c408ca7b.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cliente—GrupoTrabajo)</a></li>
         
         <li><a href='9c369f2e95357837175c04967698edbe.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cliente—TablaBuilder)</a></li>
         
         <li><a href='6ee5a558b7aec61b179a4352eb1013d1.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Cliente→TablaBuilder)</a></li>
+        
+        <li><a href='9ccd9b4cb9c3bec5d448895d2c2bb6e8.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Empresa→Cliente)</a></li>
+        
+        <li><a href='c53f5d5938de7c2b825ac4ebd37aaa86.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Particular→Cliente)</a></li>
         
     </ul>
 </section>
